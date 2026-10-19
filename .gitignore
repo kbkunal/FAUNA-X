@@ -1,0 +1,91 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# PyTorch checkpoints and raw archives
+*.pt
+*.pth
+data/raw/archives/*.zip
+data/raw/archives/*.tar.gz
+
+# Local OS & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ultralytics runs and caches
+runs/
+*.cache
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Local data
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+
+# Generated training files
+runs/
+outputs/
+
+# Private datasets and raw research data
+data/
+datasets/
+
+# Generated evaluation results
+evaluation/
+
+# Model weights - upload separately if needed
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Local environment template - allow only after sanitizing
+.env.example
+# Exclude copied environment secrets
+.env.example
+# All trained model weights
+models/
+weights/
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Environment files
+.env
+.env.*
+!.env.example
+.env.example
+
+# Local databases and generated artifacts
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+runs/
+outputs/
